@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Restaurant Gourmet</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container">
+    <a class="navbar-brand" href="#">Gourmet Palace</a>
+    <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item"><a href="#accueil" class="nav-link active">Accueil</a></li>
+        <li class="nav-item"><a href="#menu" class="nav-link">Menu</a></li>
+        <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- HERO SECTION -->
+<section class="hero" id="accueil">
+  <div class="container">
+    <h1 class="display-4 fw-bold">Bienvenue au Gourmet Palace</h1>
+    <p class="lead">Cuisine fine & ambiance chaleureuse</p>
+    <a href="#menu" class="btn btn-warning btn-lg mt-3">Voir le menu</a>
+  </div>
+</section>
+
+<!-- MENU -->
+<section id="menu" class="py-5 bg-light">
+  <div class="container">
+    <h2 class="text-center mb-4">Nos spécialités</h2>
+    <div class="row">
+      <div class="col-md-4 mb-4">
+        <div class="card menu-item">
+          <img src="image8.jpg" class="card-img-top" alt="Plat 1">
+          <div class="card-body">
+            <h5 class="card-title">Pâtes fraîches</h5>
+            <p class="card-text">Préparées à la main avec sauce tomate maison et basilic.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4">
+        <div class="card menu-item">
+          <img src="image7.jpg" class="card-img-top" alt="Plat 2">
+          <div class="card-body">
+            <h5 class="card-title">Entrecôte grillée</h5>
+            <p class="card-text">Servie avec légumes bio de saison et sauce au poivre.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4">
+        <div class="card menu-item">
+          <img src="image6.jpg" class="card-img-top" alt="Dessert">
+          <div class="card-body">
+            <h5 class="card-title">Tarte au citron</h5>
+            <p class="card-text">Acidulée et sucrée, un dessert parfait pour finir.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4">
+        <div class="card menu-item">
+          <img src="image7.jpg" class="card-img-top" alt="Plat 2">
+          <div class="card-body">
+            <h5 class="card-title">Entrecôte grillée</h5>
+            <p class="card-text">Servie avec légumes bio de saison et sauce au poivre.</p>
+          </div>
+        </div>
+      </div><div class="col-md-4 mb-4">
+        <div class="card menu-item">
+          <img src="image7.jpg" class="card-img-top" alt="Plat 2">
+          <div class="card-body">
+            <h5 class="card-title">Entrecôte grillée</h5>
+            <p class="card-text">Servie avec légumes bio de saison et sauce au poivre.</p>
+          </div>
+        </div>
+      </div><div class="col-md-4 mb-4">
+        <div class="card menu-item">
+          <img src="image9.jpg" class="card-img-top" alt="Plat 2">
+          <div class="card-body">
+            <h5 class="card-title">Entrecôte grillée</h5>
+            <p class="card-text">Servie avec légumes bio de saison et sauce au poivre.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="py-5" style="background-color: #fff9f3;">
+    <div class="container">
+      <h2 class="text-center mb-5" style="color: #3e3e3e;">Nous contacter</h2>
+      <div class="row">
+        <!-- Formulaire -->
+        <div class="col-md-6 mb-4">
+          <form>
+            <div class="mb-3">
+              <label for="nom" class="form-label">Nom</label>
+              <input type="text" class="form-control shadow-sm" id="nom" placeholder="Votre nom" required>
+            </div>
+            <div class="mb-3">
+              <label for="email" class="form-label">Adresse Email</label>
+              <input type="email" class="form-control shadow-sm" id="email" placeholder="votre@email.com" required>
+            </div>
+            <div class="mb-3">
+              <label for="message" class="form-label">Message</label>
+              <textarea class="form-control shadow-sm" id="message" rows="4" placeholder="Votre message ici..."></textarea>
+            </div>
+            <button type="submit" class="btn btn-custom">Envoyer</button>
+          </form>
+        </div>
+  
+        <!-- Infos de contact -->
+        <div class="col-md-6">
+          <div class="ps-md-4">
+            <h5 class="fw-bold"><i class="fas fa-map-marker-alt me-2 text-warning"></i>Adresse</h5>
+            <p>123 Rue du Goût, Ndioum, Sénégal</p>
+  
+            <h5 class="fw-bold"><i class="fas fa-phone me-2 text-warning"></i>Téléphone</h5>
+            <p>+221 78 342 74 00</p>
+  
+            <h5 class="fw-bold"><i class="fas fa-envelope me-2 text-warning"></i>Email</h5>
+            <p>contact@example.com</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- AGENCE DE VOYAGE -->
+<section id="voyage" class="py-5" style="background-color: #f0f8ff;">
+    <div class="container">
+      <h2 class="text-center mb-5">Explorez le monde avec nous</h2>
+      <div class="row align-items-center">
+        <div class="col-md-6 mb-4">
+          <img src="avion.jpg" class="img-fluid rounded shadow" alt="Voyage">
+        </div>
+        <div class="col-md-6">
+          <h4 class="fw-bold">Des destinations de rêve</h4>
+          <p>Que vous rêviez de plages tropicales, de villes romantiques ou d'aventures en montagne, notre agence de voyage est là pour vous aider à réaliser vos rêves.</p>
+          <ul class="list-unstyled">
+            <li><i class="fas fa-check-circle text-success me-2"></i>Destinations personnalisées</li>
+            <li><i class="fas fa-check-circle text-success me-2"></i>Meilleurs prix garantis</li>
+            <li><i class="fas fa-check-circle text-success me-2"></i>Assistance 24/7</li>
+          </ul>
+          <a href="#contact" class="btn btn-custom mt-3">Contactez-nous pour un devis</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+
+<!-- FOOTER -->
+<footer class="text-center">
+  <div class="container">
+    <p>© 2025 Gourmet Palace - Tous droits réservés.</p>
+    <div>
+      <a href="#" class="footer-icon"><i class="fab fa-facebook-f"></i></a>
+      <a href="#" class="footer-icon"><i class="fab fa-instagram"></i></a>
+      <a href="#" class="footer-icon"><i class="fab fa-twitter"></i></a>
+    </div>
+  </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
